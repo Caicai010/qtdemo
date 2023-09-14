@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/qss">
+        <file>org.qss</file>
+    </qresource>
+    <qresource prefix="/img">
+        <file>img/1.png</file>
+        <file>img/2.png</file>
+        <file>img/3.png</file>
+        <file>img/4.png</file>
+        <file>img/5.png</file>
+        <file>img/6.png</file>
+    </qresource>
+</RCC>

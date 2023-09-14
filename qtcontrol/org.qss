@@ -1,0 +1,29 @@
+QMainWindow#MainWindow
+{
+    border: 1px solid #32435E;
+    border-radius: 5px;                /*控件边框的弧度，数值越大，则弯曲得越厉害*/
+    /* padding: 0 8px; */
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,    /*背景*/
+                             stop: 0 #113845,
+                             stop: 1.0 #15A8FF);
+    selection-background-color: #0A246A;
+}
+
+QTabBar::tab {
+ width: 150px; height: 60px;
+background-image: url(:/img/img/2.png); background-size: cover;
+border-top-left-radius: 10px;                   /*设置选项卡按钮的左上角的圆角半径*/
+         border-top-right-radius: 10px;         /*设置选项卡按钮的右上角的圆角半径*/
+         margin-right: 40px;                  /*tab 间距 */
+
+
+}
+QTabBar::tab:hover {
+    background-image: url(:/img/img/3.png);
+     cursor: cross;
+
+}
+QTabBar::tab:selected {
+    background-image: url(:/img/img/4.png);
+
+}
